@@ -2,7 +2,7 @@ package main
 
 type PluginRegisterer string
 
-type Logger interface {
+type PluginLogger interface {
 	Debug(v ...interface{})
 	Info(v ...interface{})
 	Warning(v ...interface{})
