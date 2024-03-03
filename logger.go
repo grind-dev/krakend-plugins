@@ -1,6 +1,4 @@
-package main
-
-type PluginRegisterer string
+package krakend_plugins
 
 type PluginLogger interface {
 	Debug(v ...interface{})
